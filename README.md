@@ -3,7 +3,7 @@ ErServer is a Java library that provides a clean and simple API for efficient TC
 ErServer is ideal for any client/server application. Currently, the server handles the requests from clients by using a custom Command system. 
 
 Basic request/response mechanism of ErServer works like this:
-- Client sents request as string for ex: "commandX"
+- Client sends request as string (for example: "commandX")
 - Server looks for a registered command which has the matching commandTrigger to the "commandX"
 - Server executes the command and sends response if necessary to the client
 
